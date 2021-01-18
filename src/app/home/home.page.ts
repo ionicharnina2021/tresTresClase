@@ -1,3 +1,5 @@
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { Platform, ToastController } from '@ionic/angular';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  //En este proyecto ya tenemos instalado el geolocation
   constructor() {}
-
+ 
 }

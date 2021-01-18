@@ -1,5 +1,7 @@
 {
   "name": "tresTres",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
